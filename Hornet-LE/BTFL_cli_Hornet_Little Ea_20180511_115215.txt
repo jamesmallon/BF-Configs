@@ -1,0 +1,81 @@
+diff
+
+# version
+# Betaflight / OMNIBUSF4 (OBF4) 3.3.2 May  4 2018 / 09:51:33 (64a292f37) MSP API: 1.38
+
+# name
+name Hornet Little Ea
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature LED_STRIP
+
+# beeper
+beeper -GYRO_CALIBRATED
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_LOW
+beeper -RX_SET
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -SYSTEM_INIT
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+
+# map
+map TAER1234
+
+# serial
+serial 0 64 115200 57600 0 115200
+
+# led
+led 0 7,8::C:12
+led 1 8,8::C:12
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1300 1675 0
+aux 1 1 1 900 1300 0
+aux 2 2 1 1300 1700 0
+aux 3 13 4 1300 2100 0
+aux 4 28 1 1700 2100 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set max_check = 1950
+set serialrx_provider = SBUS
+set motor_pwm_protocol = DSHOT600
+set small_angle = 180
+set deadband = 2
+set pid_process_denom = 1
+
+# profile
+profile 0
+
+
+# rateprofile
+rateprofile 0
+
+
+# 
